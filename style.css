@@ -14,13 +14,13 @@ p{
     text-align: justify;
     color: dimgrey;
 }
-.name-style{
+.orange-style{
     color: orange;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin: 3%;
+    margin: 2%;
     padding: 2%;
 }
 .half-width img{
@@ -50,4 +50,31 @@ section{
     background-position: right;
     margin: 0px;
     padding: 20px;
+}
+.shadow-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+.Experience-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+
+}
+#education-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
