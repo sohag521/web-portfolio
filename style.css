@@ -14,6 +14,32 @@ p{
     text-align: justify;
     color: dimgrey;
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(255, 187, 0, 0.883);
+    border-radius: 10px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: dimgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(223, 98, 15);
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: orange;
+    color: dimgrey;
+  }
 .orange-style{
     color: orange;
 }
@@ -77,7 +103,40 @@ section{
 footer p{
     text-align: center;
     font-size: 12px;
+    padding: 5px;
 }
 .Experience-part h2{
     text-align: center;
 }
+.icon-social {
+    text-align: center;
+   
+    color: rgb(41, 34, 139);
+    
+    background-position: center;
+    width:50% center;
+    background-position: center;
+}
+.icon-social:hover{
+    color: rgb(255, 157, 0);
+   
+    
+}
+.icon-style:hover{
+    color: rgb(253, 207, 4);
+    background-color: rgb(255, 7, 7);
+    height: 500px;
+    width: 20%;
+    padding: 20px;
+}
+.last-part{
+    background-image:linear-gradient(180deg,lightsalmon,orange);
+   
+    height: 125px;
+    width: 100%;
+    padding: 3px;
+    background-repeat: none;
+    border-radius: 20px;
+
+}
+
